@@ -1,0 +1,31 @@
+/* RESET */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8f9;
+    font-family: arial;
+}
+
+/* HEADER */
+header{
+    height: 70px;
+    background-color: #ffffff;
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.text-logo{
+    display: inline-block;
+    font-weight: bold;
+    font-size: 40px;
+    align-items: center;
+    line-height: 70px;
+}
