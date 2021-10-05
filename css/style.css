@@ -13,31 +13,22 @@ body{
 
 /* HEADER */
 header{
+    padding: 10px 20px;
     height: 70px;
     background-color: #ffffff;
 }
 
-.container{
-    margin: auto;
-}
-
-header div{
-    height: 100%;
-    display: inline-block;
-}
-
-.logo-div{
-    margin-left: 20px;
-}
-
 .logo{
-    margin-top: auto;
+    display: inline-block;
+    width: 50px;
+    vertical-align: middle;
 }
 
 .text-logo{
+    display: inline-block;
+    vertical-align: middle;
     font-weight: bold;
     font-size: 40px;
-    line-height: 70px;
 }
 
 /* MAIN */
