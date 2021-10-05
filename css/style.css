@@ -13,49 +13,59 @@ body{
 
 /* HEADER */
 header{
-    height: 100px;
+    height: 70px;
     background-color: #ffffff;
 }
 
-.logo{
+.container{
+    margin: auto;
+}
+
+header div{
+    height: 100%;
     display: inline-block;
+}
+
+.logo-div{
     margin-left: 20px;
 }
 
+.logo{
+    margin-top: auto;
+}
+
 .text-logo{
-    display: inline-block;
     font-weight: bold;
     font-size: 40px;
-    align-items: center;
-    line-height: 100px;
+    line-height: 70px;
 }
 
 /* MAIN */
-
-.button{
-    font-size: 15px;
-    padding: 7px;
-    border-radius: 7px;
-}
-
 .sezione{
     margin-left: 25%;
     margin-right: 25%;
 }
 
+/* sezione superiore */
+.button{
+    font-size: 15px;
+    padding: 7px;
+    border-radius: 7px;
+    line-height: 50px;
+}
+
 .sezione-superiore{
     background-color: #ffffff;
-    height: 70px;
+    height: 50px;
     margin-top: 40px;
     border-radius: 7px 7px 0px 0px;
-    margin-bottom: 5px;
+    margin-bottom: 3px;
 }
 
 .sezione-superiore-sinistra{
     margin-left: 50px;
     margin-right: 7px;
     display: inline-block;
-    line-height: 50px;
 }
 
 .sezione-superiore-destra{
@@ -74,8 +84,87 @@ header{
     border: 1px solid #d4d9dd;
 }
 
+/* sezione inferiore */
 .sezione-inferiore{
     background-color: #ffffff;
     border-radius: 0px 0px 7px 7px;
+    padding: 30px 40px;
 }
+
+.sezione-inferiore ul{
+    list-style:none;
+    margin-bottom: 30px;
+}
+
+.sezione-inferiore ol{
+    list-style:none;
+    margin-bottom: 30px;
+}
+
+ol li{
+    margin-bottom: 20px;
+}
+
+.titoli-lista{
+    font-size: 20px;
+    font-weight: 800;
+    line-height: 30px;
+}
+
+li ul{
+    font-size: 17px;
+    line-height: 25px;
+}
+
+/* bottoni */
+
+.button2{
+    color: #ffffff;
+    font-size: 10px;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.color-button-blue{
+    background-color: #45abea;
+}
+
+.color-button-purple{
+    background-color: #9c72e4;
+}
+
+.color-button-green{
+    background-color: #64c0a9;
+}
+
+.color-button-orange{
+    background-color: #f29e33;
+}
+
+.color-button-pink{
+    background-color: #d863a1;
+}
+
+.color-button-lightGreen{
+    background-color: #b0c926;
+}
+
+/* simboli */
+.simbolo{
+    border-radius: 50%;
+    border: 1px solid;
+    margin-right: 10px;
+}
+
+.simbolo-positivo{
+    color: green;
+    border-color: green;
+}
+
+.simbolo-negativo{
+    color: red;
+    border-color: red;
+
+}
+
 
