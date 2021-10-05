@@ -13,7 +13,7 @@ body{
 
 /* HEADER */
 header{
-    height: 70px;
+    height: 100px;
     background-color: #ffffff;
 }
 
@@ -27,39 +27,55 @@ header{
     font-weight: bold;
     font-size: 40px;
     align-items: center;
-    line-height: 70px;
+    line-height: 100px;
 }
 
 /* MAIN */
 
 .button{
     font-size: 15px;
-    padding: 10px;
-    border-radius: 5px;
+    padding: 7px;
+    border-radius: 7px;
 }
 
 .sezione{
-    
+    margin-left: 25%;
+    margin-right: 25%;
 }
 
 .sezione-superiore{
     background-color: #ffffff;
+    height: 70px;
+    margin-top: 40px;
+    border-radius: 7px 7px 0px 0px;
+    margin-bottom: 5px;
+}
+
+.sezione-superiore-sinistra{
+    margin-left: 50px;
+    margin-right: 7px;
+    display: inline-block;
+    line-height: 50px;
+}
+
+.sezione-superiore-destra{
     display: inline-block;
 }
 
-.sezione-superiore span{
+.sezione-superiore-sinistra span{
     color: #f0f9fe;
     background-color: #47adf1;
     border: 1px solid #47adf1;
 }
 
-.sezione-inferiore{
-    background-color: #ffffff;
-    display: inline-block;
-}
-
-.sezione-inferiore span{
+.sezione-superiore-destra span{
     color: #d4d9dd;
     background-color: #ffffff;
     border: 1px solid #d4d9dd;
 }
+
+.sezione-inferiore{
+    background-color: #ffffff;
+    border-radius: 0px 0px 7px 7px;
+}
+
