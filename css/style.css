@@ -29,3 +29,37 @@ header{
     align-items: center;
     line-height: 70px;
 }
+
+/* MAIN */
+
+.button{
+    font-size: 15px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.sezione{
+    
+}
+
+.sezione-superiore{
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.sezione-superiore span{
+    color: #f0f9fe;
+    background-color: #47adf1;
+    border: 1px solid #47adf1;
+}
+
+.sezione-inferiore{
+    background-color: #ffffff;
+    display: inline-block;
+}
+
+.sezione-inferiore span{
+    color: #d4d9dd;
+    background-color: #ffffff;
+    border: 1px solid #d4d9dd;
+}
