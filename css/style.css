@@ -1,5 +1,4 @@
 /* RESET */
-
 *{
     margin: 0;
     padding: 0;
@@ -8,13 +7,12 @@
 
 body{
     background-color: #f6f8f9;
-    font-family: arial;
+    font-family: Arial;
 }
 
 /* HEADER */
 header{
     padding: 10px 20px;
-    height: 70px;
     background-color: #ffffff;
 }
 
@@ -27,28 +25,27 @@ header{
 .text-logo{
     display: inline-block;
     vertical-align: middle;
-    font-weight: bold;
+    font-weight: 800;
     font-size: 40px;
 }
 
 /* MAIN */
 .sezione{
-    margin-left: 25%;
-    margin-right: 25%;
+    width: 60%;
+    margin: auto;
+    margin-top: 40px;
 }
 
 /* sezione superiore */
 .button{
     font-size: 15px;
-    padding: 7px;
-    border-radius: 7px;
+    padding: 7px 15px;
+    border-radius: 5px;
     line-height: 50px;
 }
 
 .sezione-superiore{
     background-color: #ffffff;
-    height: 50px;
-    margin-top: 40px;
     border-radius: 7px 7px 0px 0px;
     margin-bottom: 3px;
 }
@@ -63,13 +60,13 @@ header{
     display: inline-block;
 }
 
-.sezione-superiore-sinistra span{
+.button-blue{
     color: #f0f9fe;
     background-color: #47adf1;
     border: 1px solid #47adf1;
 }
 
-.sezione-superiore-destra span{
+.button-gray{
     color: #d4d9dd;
     background-color: #ffffff;
     border: 1px solid #d4d9dd;
@@ -82,13 +79,9 @@ header{
     padding: 30px 40px;
 }
 
-.sezione-inferiore ul{
-    list-style:none;
-    margin-bottom: 30px;
-}
-
+/* liste */
 .sezione-inferiore ol{
-    list-style:none;
+    list-style: none;
     margin-bottom: 30px;
 }
 
@@ -96,19 +89,16 @@ ol li{
     margin-bottom: 20px;
 }
 
+.arrow-down{
+    font-size: 23px;
+}
+
 .titoli-lista{
     font-size: 20px;
     font-weight: 800;
-    line-height: 30px;
-}
-
-li ul{
-    font-size: 17px;
-    line-height: 25px;
 }
 
 /* bottoni */
-
 .button2{
     color: #ffffff;
     font-size: 10px;
@@ -142,8 +132,13 @@ li ul{
 
 /* simboli */
 .simbolo{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border: 1px solid;
+    text-align: center;
+    line-height: 20px;
     margin-right: 10px;
 }
 
@@ -157,5 +152,4 @@ li ul{
     border-color: red;
 
 }
-
 
